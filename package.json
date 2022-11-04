@@ -15,10 +15,12 @@
     "@trpc/react-query": "10.0.0-rc.0",
     "@trpc/server": "10.0.0-rc.0",
     "dayjs": "^1.11.6",
+    "moment-timezone": "^0.5.38",
     "next": "13.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-live-clock": "^6.0.6",
+    "react-moment": "^1.1.2",
     "react-snowfall": "^1.2.1",
     "superjson": "1.9.1",
     "zod": "^3.18.0"
