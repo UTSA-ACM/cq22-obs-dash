@@ -9,7 +9,6 @@ const SoonEventItem: FunctionComponent<Event> = ({ name, location, start }) => {
 				{`${name} @ The ${location}`}{" "}
 				<span className="gradient-background rounded p-[3px]">{start.format("hh:mmA")}</span>
 			</h2>
-			<br />
 		</>
 	);
 };

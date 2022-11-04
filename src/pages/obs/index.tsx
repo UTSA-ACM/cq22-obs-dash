@@ -42,15 +42,18 @@ const OBS: NextPage = () => {
 					<br />
 					<div className="flex w-full flex-col justify-center">
 						<div>
-							<h3 className="header-gradient text-xl font-extrabold">Happening Now:</h3>
+							<h3 className="header-gradient flex flex-col text-xl font-extrabold">
+								Happening Now:
+							</h3>
 							{nowEvents.length > 0 ? (
 								nowEvents.map((event) => <NowEventItem key={Math.random()} {...event} />)
 							) : (
 								<p className="break-normal text-xl font-extrabold text-white">🍁 Hacking</p>
 							)}
+							<br />
 						</div>
 						<div>
-							<h3 className="header-gradient text-xl font-extrabold">Up Next:</h3>
+							<h3 className="header-gradient flex flex-col text-xl font-extrabold">Up Next:</h3>
 							{soonEvents.length > 0
 								? soonEvents.map((event) => <SoonEventItem key={Math.random()} {...event} />)
 								: null}
