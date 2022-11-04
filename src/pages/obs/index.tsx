@@ -75,7 +75,9 @@ const OBS: NextPage = () => {
 
 						<div>
 							<h3 className="header-gradient flex flex-col text-xl font-extrabold">Resources:</h3>
-							<h2 className="break-normal text-xl font-extrabold text-white">guide.cqhacks.org</h2>
+							<h2 className="break-normal text-xl font-extrabold text-white">
+								go.cqhacks.org/guide
+							</h2>
 							<h2 className="break-normal text-xl font-extrabold text-white">
 								go.cqhacks.org/schedule
 							</h2>
