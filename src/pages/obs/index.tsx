@@ -38,14 +38,14 @@ const OBS: NextPage = () => {
 				<title>CQ OBS View</title>
 			</Head>
 			{showFallEffect ? <Snowfall speed={[0.1, 0.2]} /> : null}
+			<Image
+				src="/img/clipart/tree.svg"
+				className="absolute bottom-0 right-10"
+				alt="CQ Tree"
+				width={300}
+				height={300}
+			/>
 			<div className="grid h-screen w-full grid-cols-2 overflow-y-auto bg-cq-lightgreen">
-				<Image
-					src="/img/clipart/tree.svg"
-					className="absolute bottom-0 right-10 z-0"
-					alt="CQ Tree"
-					width={300}
-					height={300}
-				/>
 				<div className="z-10 flex flex-col items-start justify-center p-[10px] pl-[30px]">
 					<h1 className="header-gradient font-sans text-6xl font-extrabold">CodeQuantum 2022</h1>
 					<br />
