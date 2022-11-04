@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-gradient {
+	-webkit-tap-highlight-color: transparent;
+	-webkit-text-decoration: none;
+	text-decoration: none;
+	background-image: linear-gradient(45deg, #ef4600 0%, #e21632 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.gradient-background {
+	background-image: linear-gradient(45deg, #ef4600 0%, #e21632 100%);
+}
