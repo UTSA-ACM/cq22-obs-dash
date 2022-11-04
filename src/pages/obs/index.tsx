@@ -67,7 +67,9 @@ const OBS: NextPage = () => {
 							{soonEvents.length > 0 ? (
 								soonEvents.map((event) => <SoonEventItem key={Math.random()} {...event} />)
 							) : (
-								<p className="break-normal text-xl font-extrabold text-white">🍁 Hacking 2?</p>
+								<p className="break-normal text-xl font-extrabold text-white">
+									🍁 Hacking: The Sequel
+								</p>
 							)}
 							<br />
 							<br />
@@ -80,6 +82,9 @@ const OBS: NextPage = () => {
 							</h2>
 							<h2 className="break-normal text-xl font-extrabold text-white">
 								go.cqhacks.org/schedule
+							</h2>
+							<h2 className="break-normal text-xl font-extrabold text-white">
+								go.cqhacks.org/music
 							</h2>
 							<br />
 						</div>
